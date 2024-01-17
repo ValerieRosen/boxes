@@ -1,5 +1,5 @@
 import React from "react";
-import BoxList from "/.BoxList";
+import BoxList from "./BoxList";
 
 function App() {
   return (
