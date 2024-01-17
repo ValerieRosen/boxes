@@ -9,7 +9,8 @@ function Box({
 }) {
   const remove = () => handleRemove(id);
   return (
-    <div>
+    <div align="center">
+      <br></br>
       <div
         style={{
           height: `${height}em`,
@@ -17,7 +18,9 @@ function Box({
           backgroundColor,
         }}
       />
+      <br></br>
       <button onClick={remove}>Remove Box</button>
+      <br></br>
     </div>
   );
 }
